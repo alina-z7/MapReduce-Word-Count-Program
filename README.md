@@ -22,8 +22,6 @@ This MapReduce Word Count program counts the occurrences of each word in a given
 - Maven
 - IntelliJ IDEA
 
-## Setup
-
 ### Prerequisites
 
 - Java 8 installed
@@ -49,14 +47,9 @@ This MapReduce Word Count program counts the occurrences of each word in a given
 The project structure is organized as follows:
 
 - `src/main/java`: Contains Java source code files.
-- `org.alinazac`: Package containing MapReduce classes (`WC_Main`, `WC_Mapper`, `WC_Reducer`).
+  - `org.alinazac`: Package containing MapReduce classes (`WC_Main`, `WC_Mapper`, `WC_Reducer`).
 - `pom.xml`: Maven project configuration file.
 
 ## License
 
 This project is licensed under the [LUC License](LICENSE).
-  - `org.alinazac`: Package containing MapReduce classes (`WC_Main`, `WC_Mapper`, `WC_Reducer`).
-- `pom.xml`: Maven project configuration file.
-
-
-This project is licensed under the [MIT License](LICENSE).
