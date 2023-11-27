@@ -52,4 +52,4 @@ The project structure is organized as follows:
 
 ## License
 
-This project is licensed under the [LUC License](LICENSE).
+This project is licensed under the [LUC License].
