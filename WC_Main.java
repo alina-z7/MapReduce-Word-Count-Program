@@ -1,9 +1,9 @@
-/**
+/******************************************************************************************************************************************
  * Alina Zacaria, Student @ Loyola University Chicago
  * Contact: alinazac9@gmail.com
  * Date: October 25th, 2023
  * @version final
- */
+ ******************************************************************************************************************************************/
 
 package org.alinazac;
 
@@ -24,15 +24,16 @@ public class WC_Main {
 
     /**
      * Main method to set up and execute the MapReduce job.
-     * @param - args Input and output file paths as arguments.
-     * @throws - IOException Signals that an I/O exception has occurred.
+     * @param args          Input and output file paths as arguments.
+     * @throws IOException  Signals that an I/O exception has occurred.
      */
+
     public static void main(String[] args) throws IOException{
         // Setting up the configuration for the MapReduce Job
         JobConf conf = new JobConf(WC_Main.class);
         conf.setJobName("Word Count");
 
-        // Setting the output key and values as the word and occurence
+        // Setting the output key and values as the word and occurrence
         conf.setOutputKeyClass(Text.class);
         conf.setOutputValueClass(IntWritable.class);
 
